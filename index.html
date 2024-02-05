@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset class="productFieldset">
+      <legend>Product</legend>
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="pId" class="required">Product ID:</label></td>
+            <td><input type="number" pattern="[0-9]" id="pId" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pName">Product Name:</label></td>
+            <td><input type="text" id="pName" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pNumber">Product Number:</label></td>
+            <td><input type="text" id="pNumber" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pColor">Product Color:</label></td>
+            <td><input type="text" id="pColor" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pCatId" class="required">Category ID:</label></td>
+            <td>
+              <input type="number" pattern="[0-9]" id="pCatId" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="pModId" class="required">Model ID:</label></td>
+            <td>
+              <input type="number" pattern="[0-9]" id="pModId" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="price">Price:</label></td>
+            <td><input type="text" id="price" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="qty">Quantity:</label></td>
+            <td><input type="number" id="qty" /></td>
+          </tr>
+
+          <tr>
+            <td><input type="submit" value="Submit" /></td>
+          </tr>
+        </table>
+
+        <div>
+          <ul>
+            <li>
+              <a href="/productCategory.html">GoTo Product Category &rarr;</a>
+            </li>
+            <li>
+              <a href="/productModel.html">GoTo Product Model &rarr;</a>
+            </li>
+          </ul>
+        </div>
+      </form>
+      <div id="footerFieldset">
+        <a href="https://www.github.com/mehedimd" target="_blank"
+          >My Github &uarr;</a
+        >
+      </div>
+    </fieldset>
+  </body>
+</html>

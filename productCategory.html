@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset class="categoryFieldset">
+      <legend>Product Category</legend>
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="catId" class="required">Category ID:</label></td>
+            <td><input type="number" id="catId" pattern="[0-9]" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="catName">Category Name</label></td>
+            <td><input type="text" id="catName" /></td>
+          </tr>
+
+          <tr>
+            <td><input type="submit" value="Submit" /></td>
+          </tr>
+        </table>
+      </form>
+
+      <div>
+        <ul>
+          <li>
+            <a href="/product.html">GoTo Product &rarr;</a>
+          </li>
+          <li>
+            <a href="/productModel.html">GoTo Product Model &rarr;</a>
+          </li>
+        </ul>
+      </div>
+      <div id="footerFieldset">
+        <a href="https://www.github.com/mehedimd" target="_blank"
+          >My Github &uarr;</a
+        >
+      </div>
+    </fieldset>
+  </body>
+</html>

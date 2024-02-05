@@ -1,0 +1,49 @@
+fieldset {
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  border-radius: 8px;
+  border: 1px solid;
+  box-shadow: 5px 8px 10px tomato;
+  font-weight: bold;
+  position: relative;
+}
+fieldset ul {
+  list-style-type: none;
+}
+fieldset a {
+  text-decoration: none;
+}
+fieldset .required::before {
+  content: "*";
+  color: red;
+}
+[type="submit"] {
+  font-weight: bolder;
+  background-color: tomato;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+[type="submit"]:hover {
+  background-color: white;
+  border: 1px solid tomato;
+}
+[type="submit"] :active {
+  background-color: green;
+}
+input:focus {
+  background-color: tomato;
+}
+input:active {
+  background-color: black;
+}
+input:required {
+  border: 2px solid red;
+}
+
+#footerFieldset {
+  position: absolute;
+  bottom: 15px;
+}
